@@ -4,7 +4,7 @@ import { useState } from "react";
 import itemsData from "./items.json";
 import GroceryItemForm from "./GroceryItemForm";
 import ItemList from "./ItemList";
-import MealIdeas from "./MealIdeas";
+import MealListByIngredient from "./MealListByIngredient";
 
 export default function Week8Page() {
   const [items, setItems] = useState(itemsData);
@@ -53,7 +53,7 @@ export default function Week8Page() {
         </div>
 
         <section className="bg-slate-800 rounded-xl p-4 h-[860px] flex flex-col">
-          <MealIdeas ingredient={selectedItemName} />
+          <MealListByIngredient ingredient={selectedItemName} />
         </section>
       </div>
     </main>
