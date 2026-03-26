@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center p-4 bg-slate-800 text-white">
       {/* Left side */}
       <Link href="/week-10" className="font-bold text-lg">
-        Shopping List
+        Dashboard
       </Link>
 
       {/* Right side */}
